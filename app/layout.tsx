@@ -15,6 +15,19 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "StockMind AI — Inventory Dashboard",
   description: "AI-powered inventory dashboard for SMEs",
+  manifest: "/manifest.json",
+  openGraph: {
+    title: "StockMind AI",
+    description: "AI-powered inventory dashboard for SMEs",
+    type: "website",
+    images: [{ url: "/og-image.svg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "StockMind AI",
+    description: "AI-powered inventory dashboard for SMEs",
+    images: ["/og-image.svg"],
+  },
 };
 
 export default function RootLayout({

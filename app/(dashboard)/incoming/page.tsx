@@ -42,7 +42,7 @@ export default function IncomingPage() {
         </Button>
       </div>
 
-      <div className="rounded-xl border border-zinc-200 bg-white shadow-sm dark:border-zinc-800 dark:bg-zinc-950">
+      <div className="overflow-hidden rounded-2xl border border-slate-100 bg-white shadow-sm">
         {incomingTransactions.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-16 text-center">
             <ArrowDownToLine className="h-12 w-12 text-zinc-300" />
